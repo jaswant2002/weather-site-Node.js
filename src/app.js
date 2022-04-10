@@ -91,7 +91,7 @@ app.get('/about', (req, res)=>{
 
 app.get('/help', (req, res)=>{
     res.render('help', {
-        helpText: 'This is some helpful text',
+        helpText: 'Need help? Shoot us an email here help@mywebsite.org',
         title: 'Help',
         name: 'Jaswant'
     });
